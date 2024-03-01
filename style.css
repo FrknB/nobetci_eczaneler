@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 60%;
+    padding: 20px;
+    gap: 100px;
+    box-shadow: 0 0 4px gray;
+}
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+.title{
+    font-weight: bold;
+    font-size: 22px;
+}
+.select-boxs{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+select{
+    width: 160px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 20px;
+    border: none;
+    font-size: 16px;
+}
+.lists{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.pharmacy-item{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(189, 189, 189);
+    width: 100%;
+    border-radius: 6px;
+    height: auto;
+    gap: 10px;
+    padding: 20px;
+}
+.map {
+    margin-top: 10px;
+}
+.name{
+    font-size: 22px;
+}
+.tel, .adress{
+    font-size: 18px;
+}
+@media (max-width: 640px) {
+    .container{
+        width: 80%;
+    }
+    .name{
+        font-size: 18px;
+    }
+    .tel, .adress{
+        font-size: 16px;
+    }
+}
+@media (max-width: 490px) {
+    .container{
+        width: 90%;
+    }
+    .select-boxs{
+        flex-direction: column;
+    }
+    .name{
+        font-size: 16px;
+    }
+    .tel, .adress{
+        font-size: 14px;
+    }
+}
+@media (max-width: 320px) {
+    .container{
+        width: 100%;
+    }
+}
+@media (max-width: 280px) {
+    .container{
+        width: 100%;
+        padding: 20px 6px 20px 6px;
+    }
+    .title{
+        font-size: 16px;
+    }
+    .select-boxs{
+        flex-direction: column;
+    }
+    .name{
+        font-size: 18px;
+    }
+    .tel, .adress{
+        font-size: 16px;
+    }
+    .Name-tel{
+        padding: 10px;
+    }
+}
