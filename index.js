@@ -39,7 +39,7 @@ function selectedDistrict() {
     fetch(url, {
         method: "GET",
         headers: {
-            'Authorization': 'YOUR_API_KEY',
+            'Authorization': 'apikey 0XyYUfdg5igLsPHTVVHvJd:2GWNVEWaYvs6fS0lEPXt81',
             'Content-Type': 'application/json'
         }
     })
